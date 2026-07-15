@@ -122,12 +122,14 @@ Each download is one plugin's four file IoStore bundle (`.pak` · `.ucas` · `.u
 
 Windows PowerShell
 ```
+$ProgressPreference = 'SilentlyContinue'   # without this, PowerShell's progress bar throttles downloads ~10x
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11'; $tag = '39.11'; $dest = Join-Path $env:USERPROFILE 'Downloads\RocketRacingMaps'
+$repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11'; $tag = '39.11'
+$dest = Join-Path $env:USERPROFILE 'Downloads\RocketRacingMaps'
 New-Item -ItemType Directory -Force $dest | Out-Null
 $assets = (Invoke-RestMethod "https://api.github.com/repos/$repo/releases/tags/$tag").assets
-Write-Host "Downloading $($assets.Count) maps..."
-foreach ($a in $assets) { Write-Host "  ↓ $($a.name)"; Invoke-WebRequest $a.browser_download_url -OutFile (Join-Path $dest $a.name) }
+Write-Host "Downloading $($assets.Count) maps to $dest ..."
+foreach ($a in $assets) { $o = Join-Path $dest $a.name; if (Test-Path $o) { continue }; Write-Host "  $($a.name)"; Invoke-WebRequest $a.browser_download_url -OutFile $o }
 ```
 macOS / Linux bash + curl (built in, no jq)
 ```
@@ -135,7 +137,7 @@ repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="$HOME
 mkdir -p "$dest"
 curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
   | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 \
-  | while read -r url; do echo "↓ ${url##*/}"; curl -L --retry 3 -o "$dest/${url##*/}" "$url"; done
+  | while read -r url; do echo "$ {url##*/}"; curl -L --retry 3 -o "$dest/${url##*/}" "$url"; done
 ```
 Linux wget one line
 ```
