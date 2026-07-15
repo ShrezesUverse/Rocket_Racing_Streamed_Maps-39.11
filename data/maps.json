@@ -637,7 +637,7 @@
   }
 ,
   {
-    "codename": "GoldRush",
+    "codename": "DelMar_Racing_ProjectA",
     "map": "Mine Mayhem",
     "plugin": "GoldRush",
     "pakchunk": "pakchunk4644",
@@ -650,7 +650,7 @@
   }
 ,
   {
-    "codename": "CoralCove",
+    "codename": "PA_3DLabTrackB",
     "map": "Buddy Beach",
     "plugin": "CoralCove",
     "pakchunk": "pakchunk4643",
@@ -663,7 +663,7 @@
   }
 ,
   {
-    "codename": "PirateAdventure",
+    "codename": "PA_3DLabTrackA",
     "map": "Shipwrecked",
     "plugin": "PirateAdventure",
     "pakchunk": "pakchunk4642",
@@ -676,7 +676,7 @@
   }
 ,
   {
-    "codename": "DM_404_S2_A",
+    "codename": "RoundTwoEasy",
     "map": "Lavish Lagoon",
     "plugin": "DM_404_S2_A",
     "pakchunk": "pakchunk4650",
@@ -689,7 +689,7 @@
   }
 ,
   {
-    "codename": "DM_404_S2_B",
+    "codename": "difficultTrack",
     "map": "Basalt Burrow",
     "plugin": "DM_404_S2_B",
     "pakchunk": "pakchunk4651",
@@ -702,7 +702,7 @@
   }
 ,
   {
-    "codename": "DM_404_S2_B",
+    "codename": "difficultTrack",
     "map": "Basalt Burrow",
     "plugin": "DM_404_S2_BOptional",
     "pakchunk": "pakchunk4651optional",
@@ -728,7 +728,7 @@
   }
 ,
   {
-    "codename": "Borealis",
+    "codename": "DelMar_Racing_ProjectB",
     "map": "Borealis",
     "plugin": "Borealis",
     "pakchunk": "pakchunk4641",
