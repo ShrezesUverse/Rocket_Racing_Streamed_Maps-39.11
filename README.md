@@ -94,16 +94,25 @@
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download |
 |---|---|---|---|---|---|
-| **Mine Mayhem** | `GoldRush` | `GoldRush` | `pakchunk4644` | 10.8 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/GoldRush.zip) |
-| **Buddy Beach** | `CoralCove` | `CoralCove` | `pakchunk4643` | 86.6 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/CoralCove.zip) |
-| **Shipwrecked** | `PirateAdventure` | `PirateAdventure` | `pakchunk4642` | 52.1 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/PirateAdventure.zip) |
-| **Lavish Lagoon** | `DM_404_S2_A` | `DM_404_S2_A` | `pakchunk4650` | 115.9 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_A.zip) |
-| **Basalt Burrow** | `DM_404_S2_B` | `DM_404_S2_B` | `pakchunk4651` | 113.9 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_B.zip) |
-| **Basalt Burrow** | `DM_404_S2_B` | `DM_404_S2_BOptional` | `pakchunk4651optional` | 0.8 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_BOptional.zip) |
+| **Mine Mayhem** | `DelMar_Racing_ProjectA` | `GoldRush` | `pakchunk4644` | 10.8 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/GoldRush.zip) |
+| **Buddy Beach** | `PA_3DLabTrackB` | `CoralCove` | `pakchunk4643` | 86.6 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/CoralCove.zip) |
+| **Shipwrecked** | `PA_3DLabTrackA` | `PirateAdventure` | `pakchunk4642` | 52.1 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/PirateAdventure.zip) |
+| **Lavish Lagoon** | `RoundTwoEasy` | `DM_404_S2_A` | `pakchunk4650` | 115.9 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_A.zip) |
+| **Basalt Burrow** | `difficultTrack` | `DM_404_S2_B` | `pakchunk4651` | 113.9 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_B.zip) |
+| **Basalt Burrow** | `difficultTrack` | `DM_404_S2_BOptional` | `pakchunk4651optional` | 0.8 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DM_404_S2_BOptional.zip) |
 | **Alpine** | `Alpine` | `Alpine` | `pakchunk4640` | 60.8 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/Alpine.zip) |
-| **Borealis** | `Borealis` | `Borealis` | `pakchunk4641` | 100.1 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/Borealis.zip) |
+| **Borealis** | `DelMar_Racing_ProjectB` | `Borealis` | `pakchunk4641` | 100.1 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/Borealis.zip) |
 
-> **Not in this build yet:** Iron aka Trash Mountain and Tutorial Map.
+### Tutorial Map
+
+(tagged `DelMar.Mode.Something`). I forgot to save the v39.11 tutorial map. this one is the same but from v41.10.
+(AES KEY=0x04B2DDB4CAD8F213753FF0B58343739AB4BC37A1BFFEF1CAF553C41E0E20F03E)
+
+| Map | Codename | Plugin | Pakchunk ID | Size | Download |
+|---|---|---|---|---|---|
+| **Tutorial** | `Seamless_TutorialRun` | `DelMarSeamless_TutorialRun` | `pakchunk4605` | 115.3 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip) |
+
+> **Not in this build yet:** Iron. (aka. Trash Mountain)
 
 ---
 
