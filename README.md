@@ -123,7 +123,7 @@ Each download is one plugin's four file IoStore bundle (`.pak` · `.ucas` · `.u
 Windows PowerShell
 ```
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11'; $tag = '39.11'; $dest = 'RocketRacingMaps'
+$repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11'; $tag = '39.11'; $dest = Join-Path $env:USERPROFILE 'Downloads\RocketRacingMaps'
 New-Item -ItemType Directory -Force $dest | Out-Null
 $assets = (Invoke-RestMethod "https://api.github.com/repos/$repo/releases/tags/$tag").assets
 Write-Host "Downloading $($assets.Count) maps..."
@@ -131,7 +131,7 @@ foreach ($a in $assets) { Write-Host "  ↓ $($a.name)"; Invoke-WebRequest $a.br
 ```
 macOS / Linux bash + curl (built in, no jq)
 ```
-repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="RocketRacingMaps"
+repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="$HOME/Downloads/RocketRacingMaps"
 mkdir -p "$dest"
 curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
   | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 \
@@ -139,14 +139,14 @@ curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
 ```
 Linux wget one line
 ```
-repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="RocketRacingMaps"
+repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="$HOME/Downloads/RocketRacingMaps"
 mkdir -p "$dest" && cd "$dest"
 curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
   | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 | wget -i -
 ```
 Any OS GitHub CLI (gh)
 ```
-gh release download 39.11 --repo ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11 --dir RocketRacingMaps --pattern "*.zip"
+gh release download 39.11 --repo ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11 --dir "$HOME/Downloads/RocketRacingMaps" --pattern "*.zip"
 ```
 
 ## Disclaimer
