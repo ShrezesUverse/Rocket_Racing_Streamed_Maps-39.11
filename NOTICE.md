@@ -12,10 +12,6 @@ It is **not affiliated with, endorsed by, or sponsored by Epic Games, Inc. or Ps
 
 The datamined and extracted assets are provided ONLY for **historical preservation, documentation, research, and educational purposes** not for commercial use and not as a substitute for any Epic Games product or service
 
-## What is (and isn't) covered by any repo license
-
-- The **original documentation, catalog data, and scripts** authored for this repository (`README.md`, `NOTICE.md`, `data/maps.json`, everything under `scripts/`) are released into the public domain.
-- The **game assets** distributed via the Releases page are **not** licensed by this repository and remain the exclusive property of Epic Games, Inc. Nothing here grants any right in them.
 
 ## Takedown
 

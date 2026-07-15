@@ -1,13 +1,13 @@
 # Rocket Racing Streamed Maps (Build 39.11)
 
-**Streamed on-demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`
+**Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`
 ![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)
 ![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)
 ![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)
 ![Delivery](https://img.shields.io/badge/downloads-GitHub%20Releases-8957e5)
 ![Status](https://img.shields.io/badge/Rocket%20Racing-servers%20off%20Oct%202026-d1242f)
 
-> Rocket Racing (Psyonix's arcade racing game inside Fortnite, Dec 8 2023 → Oct 2026): the main Fortnite build install from Epic Games Launcher shipped with *no* DelMar level content, and each track gets downloaded the first time you played it as a four-file bundle (`.pak` · `.ucas` · `.utoc` · `.sig`) in your AppData folder on your system. Once the Rocket Racing servers sunset, those streamed bundles stop being produced. **This repo is a snapshot of that content before it disappears.**
+> Rocket Racing (Psyonix's arcade racing game inside Fortnite, Dec 8 2023 → Oct 2026): the main Fortnite build install from Epic Games Launcher shipped with *no* DelMar level content, and each track gets downloaded the first time you played it as a four file bundle (`.pak` · `.ucas` · `.utoc` · `.sig`) in your AppData folder on your system. Once the Rocket Racing servers sunset, those streamed bundles obviously stop being produced since you cant queue into any RR playlist. **This repo is a snapshot of that content before it disappears.**
 
 ---
 
@@ -17,29 +17,17 @@
 |---|---|
 | **Build** | `++Fortnite+Release-39.11-CL-49242330` (assets dated 2026-01-06) |
 | **Plugins** | **57** GameFeaturePlugins — **51** map plugins + **6** optional stream chunks |
-| **Total size** | ~**5.5 GB** (uncompressed `.ucas` payloads; per-map 0.2–157 MB) |
-| **Format** | Each plugin is a four-file UE IoStore bundle: `.pak` · `.ucas` · `.utoc` · `.sig` |
-| **Downloads** | Per-map `.zip` on the [**Releases**](../../releases) page (tag `39.11`) |
-| **Source data** | [`data/maps.json`](data/maps.json) — machine-readable catalog |
-
-The codename ↔ track-name mapping is **file-verified** (each plugin's `…_LevelData.json` `DisplayName`) and cross-checked against the [Rocket Racing Global Archive](https://github.com/ShrezesUverse) §8.4. Marked *file-verified* rows resolved codenames that community trackers previously had wrong or unmapped.
-
-- [The catalog](#-the-catalog) — all 57, grouped by mode
-- [How the naming works](#how-the-plugin-naming-works)
-- [Using the files](#using-the-files)
-- [How downloads are published](#how-downloads-are-published)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
+| **size** | ~**5.5 GB** (uncompressed `.ucas` payloads; aprox per map 157 MB) |
+| **Format** | Each plugin is a four file UE IoStore bundle: `.pak` · `.ucas` · `.utoc` · `.sig` |
+| **Downloads** | Per map `.zip` on the [**Releases**](../../releases) page (tag `39.11`) |
+| **Source data** | [`data/maps.json`](data/maps.json) catalog |
 
 ---
 
-## 🗂️ The catalog
 
-Every row: **map name · codename · plugin · pakchunk ID · size · download link.** `⬇ download` links resolve once the matching `.zip` is uploaded to the [`39.11` release](../../releases/tag/39.11).
+### Competitive tracks - Racing - Ranked - Speed Run
 
-### 🏁 Competitive tracks — Racing · Ranked · Speed Run
-
-Plugin = `DelMar` + codename (tagged `DelMar.Mode.Competitive`). `_adv` = the advanced "2" variant; `…Optional` = an on-demand stream chunk that pairs with the base track above it.
+(tagged `DelMar.Mode.Competitive`). `_adv` = the advanced "v2" variant; `…Optional` = an on demand stream chunk that pairs with the base track above it. If an plugin has those, id recomend to download the optional ones as well, as some metadata can be stored
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
@@ -83,9 +71,9 @@ Plugin = `DelMar` + codename (tagged `DelMar.Mode.Competitive`). `_adv` = the ad
 | **Outpost** | `Turbine` | `DelMarTurbine` | `pakchunk4613` | 126.8 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/DelMarTurbine.zip) | — |
 | **Twin Flame Island** | `Twister` | `Twister` | `pakchunk4648` | 121.4 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/Twister.zip) | Inferno Island; bare `Twister` plugin (dev naming oversight), still competitive |
 
-### ⏱️ Speed-Run–exclusive tracks
+### Speed-Run exclusive tracks
 
-Plugin = the **bare codename** (no `DelMar` prefix), tagged `DelMar.Mode.Challenge`, reachable only through the Speed Run playlist. These are the internal side of the community "…2" names.
+(no `DelMar` prefix), tagged `DelMar.Mode.Challenge`, reachable only through the Speed Run playlist. These are the internal side of the community "…2" names
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
@@ -100,9 +88,9 @@ Plugin = the **bare codename** (no `DelMar` prefix), tagged `DelMar.Mode.Challen
 | **Riviera Rush** | `Riviera` | `Riviera` | `pakchunk4632` | 101.0 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/Riviera.zip) | Speed-Run-only (Riviera_SpeedRun) |
 | **Sidewinder Sprint** | `Sidewinder` | `Sidewinder` | `pakchunk4628` | 115.1 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/Sidewinder.zip) | Speed-Run-only (Sidewinder_SpeedRun) |
 
-### 🛠️ Externally-built & studio tracks
+### built by other studios
 
-Studio-authored wave living under `DelMar/Levels/` (Epic/Psyonix, 3D Lab, 404 Creative). These keep `LevelData` as raw `.uasset`, so names rest on the internal `.umap` names + shrezee's firsthand knowledge.
+`DelMar/Levels/` (Epic/Psyonix, 3D Lab, 404 Creative). These keep `LevelData` as raw `.uasset` names
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
@@ -115,64 +103,59 @@ Studio-authored wave living under `DelMar/Levels/` (Epic/Psyonix, 3D Lab, 404 Cr
 | **Alpine** | `Alpine` | `Alpine` | `pakchunk4640` | 60.8 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/Alpine.zip) | Display name = codename |
 | **Borealis** | `Borealis` | `Borealis` | `pakchunk4641` | 100.1 MB | [⬇ download](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/Borealis.zip) | Epic/Psyonix (`DelMar_Racing_ProjectB`); display name = codename |
 
-> **Not in this build:** the dedicated tutorial plugin (`DelMarSeamless_TutorialRun`) and never-released codenames (`Wedge`/Death Race, `Thunder`/the four Pixar Cars maps, `Habanero`, `Volcanic`). See the Global Archive §16 for cut content.
+> **Not in this build yet:** Iron aka Trash Mountain and Tutorial Map.
 
 ---
 
-## How the plugin naming works
-
-The plugin name encodes which playlists a track shipped in — a rule verified firsthand against the plugin tree:
-
-- **`DelMar` + Codename** → **Competitive** track. Playable in **Racing, Ranked, and Speed Run**. (e.g. `DelMarApollo` = Tilted Turnpike.)
-- **Bare Codename** (no prefix) → **Speed-Run–exclusive** track, tagged `DelMar.Mode.Challenge`. (e.g. `Apollo` = Tilted Turns.)
-- **`_adv`** → the advanced "2" variant of a competitive track (e.g. `Ouroboros_adv` = Festive Falls 2).
-- **`…Optional`** → an on-demand optional stream chunk that layers onto its base track; small, and not standalone.
-
-So a codename like **Apollo** appears twice — `DelMarApollo` (Tilted Turnpike, competitive) and `Apollo` (Tilted Turns, Speed-Run-only) are two different tracks in two different plugins. The community shorthand "Apollo2 / Snap2" describes real *tracks*, but no `Apollo2` plugin exists — the second track just lives in the bare-codename plugin.
-
-Full engineering detail (the 34-plugin family, level anatomy, on-demand delivery, the AES-encrypted `InstalledBundles` mechanism) is in the archive's **DELMAR_INTERNALS.md**.
 
 ## Using the files
 
-Each download is one plugin's four-file IoStore bundle (`.pak` · `.ucas` · `.utoc` · `.sig`).
+Each download is one plugin's four file IoStore bundle (`.pak` · `.ucas` · `.utoc` · `.sig`).
 
-**Inspect / datamine (recommended):** open the `.utoc` in [**FModel**](https://fmodel.app) or [CUE4Parse](https://github.com/FabianFG/CUE4Parse) with the Fortnite 39.11 AES key to browse the maps, meshes, materials, and the `…_LevelData.json`. Every track is built as three `.umap` files — `TrackName.umap`, `TrackName_CYN_OOB.umap`, `TrackName_SFX.umap` (level streaming + World Partition).
+**Inspect / datamine ( I recommended):** open the `pak, ucas, utoc, sig` in [**FModel**](https://fmodel.app) or any [CUE4Parse](https://github.com/FabianFG/CUE4Parse) with the Fortnite 39.11 AES key I linked on top to browse the maps, meshes, materials, and the `…_LevelData.json`. Every track is built as three `.umap` because they have streaming and world partition enabled: files — `TrackName.umap`, `TrackName_CYN_OOB.umap`, `TrackName_SFX.umap`. If you want to open the full map, open `TrackName.umap`
 
-**Engine placement:** these are the exact bundles the game streamed to `%LOCALAPPDATA%/FortniteGame/InstalledBundles/PersistentDownloadDir`. They are **encrypted with the game's main AES key** and were only mounted by the live client.
+**They are encrypted with the game s main AES key**
 
-> ⚠️ **These are preservation artifacts, not a way to "play Rocket Racing again."** The mode's servers shut down in October 2026; nothing here restores online play. The value is documentation, datamining, and keeping the level content from being lost.
+> **These are just maps, not a way to "play Rocket Racing again."** RR susnets in October 2026
 
-## How downloads are published
+## downloads
 
-The 5.5 GB of paks are **not** committed to git — a single `.ucas` is 60–165 MB, past GitHub's 100 MB per-file limit, and the repo would be miserable to clone. Instead each plugin is zipped and attached to the **`39.11` Release**. The `⬇ download` links above are the predictable Release asset URLs.
-
-To (re)build and publish from a local checkout that still has the `GFP/` folder (needs [`gh`](https://cli.github.com/) authenticated):
-
-```powershell
-# 1) zip each plugin folder into dist\
-pwsh scripts\package_releases.ps1
-
-# 2) create the 39.11 release and upload all zips as assets
-pwsh scripts\publish_release.ps1
+Windows PowerShell
 ```
-
-Regenerate the catalog + `data/maps.json` from disk (Git Bash):
-
-```bash
-bash scripts/build_catalog.sh ./data   # rescans GFP/, rewrites maps.json + CATALOG_BODY.md
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps'; $tag = '39.11'; $dest = 'RocketRacingMaps'
+New-Item -ItemType Directory -Force $dest | Out-Null
+$assets = (Invoke-RestMethod "https://api.github.com/repos/$repo/releases/tags/$tag").assets
+Write-Host "Downloading $($assets.Count) maps..."
+foreach ($a in $assets) { Write-Host "  ↓ $($a.name)"; Invoke-WebRequest $a.browser_download_url -OutFile (Join-Path $dest $a.name) }
 ```
-
-## Contributing
-
-Corrections to a codename ↔ track mapping, a wrong size, or a missing plugin are welcome — [open an issue](../../issues/new/choose) with a file citation (`LevelData` `DisplayName`, `.umap` name, or playlist entry). The mapping is deliberately file-verified; please don't submit guesses.
+macOS / Linux bash + curl (built in, no jq)
+```
+repo="ShrezesUverse/Rocket_Racing_Streamed_Maps"; tag="39.11"; dest="RocketRacingMaps"
+mkdir -p "$dest"
+curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
+  | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 \
+  | while read -r url; do echo "↓ ${url##*/}"; curl -L --retry 3 -o "$dest/${url##*/}" "$url"; done
+```
+Linux wget one line
+```
+repo="ShrezesUverse/Rocket_Racing_Streamed_Maps"; tag="39.11"; dest="RocketRacingMaps"
+mkdir -p "$dest" && cd "$dest"
+curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
+  | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 | wget -i -
+```
+Any OS GitHub CLI (gh)
+```
+gh release download 39.11 --repo ShrezesUverse/Rocket_Racing_Streamed_Maps --dir RocketRacingMaps --pattern "*.zip"
+```
 
 ## Disclaimer
 
-This is a **fan-made preservation and research project**, **not affiliated with, endorsed by, or sponsored by Epic Games, Inc. or Psyonix.** "Fortnite," "Rocket Racing," "Rocket League," "Del Mar," and all related names, logos, and game assets are trademarks and copyright of Epic Games, Inc. Datamined and extracted assets are presented for **historical preservation, documentation, and educational purposes**. If you are a rights holder with a concern, see [**For Epic Games**](#️-for-epic-games) above — it will be resolved immediately.
+This is a **fan made project**, **not affiliated with, endorsed by, or sponsored by Epic Games, Inc. or Psyonix.** "Fortnite," "Rocket Racing," "Rocket League," "DelMar," and all related names, logos, and game assets are trademarks and copyright of Epic Games, Inc. Datamined and extracted assets are presented for **historical preservation, documentation, and educational purposes**. If you are a rights holder with a concern, see [**For Epic Games**](#️-for-epic-games) below it will be resolved immediately
 
 ---
 
-*Compiled by **shrezee** · companion to the [Rocket Racing Global Archive](https://github.com/ShrezesUverse) · build `39.11-CL-49242330`.*
+*Made with Love by **shrezee** - founder of the [Rocket Racing Global Archive](https://github.com/ShrezesUverse) Coming soon
 
 ---
 
