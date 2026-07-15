@@ -2,6 +2,8 @@
 
 # Rocket Racing Streamed Maps (Build 39.11)
 
+NOTE: If this gets enough attention, I will make downloadable .uefnproject for all of those that completely validate
+
 **Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`**
 ![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)
 ![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)
