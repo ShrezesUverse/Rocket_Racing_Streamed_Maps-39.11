@@ -105,12 +105,12 @@
 
 ### Tutorial Map
 
-(file-verified LevelData tags: `DelMar.Mode.Competitive` + `DelMar.Mode.Challenge` + `DelMar.UI.StateContext.Gameplay.IsNux`; map tag `DelMar.Map.Tutorials.SeamlessTutorialRun`. So it carries **both** mode tags + the NUX flag — there is no dedicated `DelMar.Mode.Tutorial`. `DisplayName` = "Tutorial", `LevelDescription` = "NUX Tutorial".) I forgot to save the v39.11 tutorial map. this one is the same but from v41.10.
+`DelMar.Mode.Competitive` `DelMar.Mode.Challenge` `DelMar.UI.StateContext.Gameplay.IsNux`; map tag `DelMar.Map.Tutorials.SeamlessTutorialRun`. So it has **both** mode tags and the NUX, there is no dedicated `DelMar.Mode.Tutorial`. `DisplayName` = "Tutorial", `LevelDescription` = "NUX Tutorial". I forgot to save the v39.11 tutorial map. this one is the same but from v41.10.
 (AES KEY=0x04B2DDB4CAD8F213753FF0B58343739AB4BC37A1BFFEF1CAF553C41E0E20F03E)
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download |
 |---|---|---|---|---|---|
-| **Tutorial** | `Seamless_TutorialRun` | `DelMarSeamless_TutorialRun` | `pakchunk4605` | 115.3 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip) |
+| **Tutorial** | `DelMar_Tutorials_SeamlessTutorialRun` | `DelMarSeamless_TutorialRun` | `pakchunk4605` | 115.3 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip) |
 
 > **Not in this build yet:** Iron. (aka. Trash Mountain)
 
