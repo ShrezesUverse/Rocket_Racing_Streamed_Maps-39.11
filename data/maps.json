@@ -741,7 +741,7 @@
   }
 ,
   {
-    "codename": "Seamless_TutorialRun",
+    "codename": "DelMar_Tutorials_SeamlessTutorialRun",
     "map": "Tutorial",
     "plugin": "DelMarSeamless_TutorialRun",
     "pakchunk": "pakchunk4605",
