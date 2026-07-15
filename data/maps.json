@@ -739,5 +739,18 @@
     "asset": "Borealis.zip",
     "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/Borealis.zip"
   }
+,
+  {
+    "codename": "Seamless_TutorialRun",
+    "map": "Tutorial",
+    "plugin": "DelMarSeamless_TutorialRun",
+    "pakchunk": "pakchunk4605",
+    "size_bytes": 120918240,
+    "size_human": "115.3 MB",
+    "category": "tutorial",
+    "note": "Dedicated single-player tutorial level; captured from build 41.10 (all other assets are 39.11)",
+    "asset": "DelMarSeamless_TutorialRun_41.10.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip"
+  }
 
 ]
