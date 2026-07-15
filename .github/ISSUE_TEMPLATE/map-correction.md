@@ -1,5 +1,5 @@
 ---
-name: "🗺️ Map / codename correction"
+name: "Map / codename correction"
 about: "Fix a codename ↔ track mapping, a size, a pakchunk ID, or a missing plugin"
 title: "[Catalog] "
 labels: ["catalog"]

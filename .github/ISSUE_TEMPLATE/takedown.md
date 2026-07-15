@@ -1,5 +1,5 @@
 ---
-name: "⚖️ Takedown / rights-holder request"
+name: "Takedown / rights-holder request"
 about: "Epic Games or an authorized rights holder requesting removal of content"
 title: "[Takedown] "
 labels: ["takedown"]
