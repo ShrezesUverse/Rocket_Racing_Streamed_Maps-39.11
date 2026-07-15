@@ -18,7 +18,6 @@ The catalog is deliberately file-verified. Please cite one of:
   • the plugin's `…_LevelData.json` `DisplayName`
   • the internal `.umap` name
   • a `Playlist_DelMar_<codename>` entry from fortnite-api.com
-Guesses without a source can't be merged.
 -->
 
 **Anything else?**

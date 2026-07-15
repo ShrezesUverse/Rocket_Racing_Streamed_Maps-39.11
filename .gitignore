@@ -13,6 +13,9 @@ GFP/**/ManifestArchive.journal
 # Release zips built locally by scripts/package_releases.ps1
 /dist/
 
+# Local maintainer tooling — kept on disk, not published to the repo
+/scripts/
+
 # Generated intermediate (the catalog is embedded in README.md)
 CATALOG_BODY.md
 

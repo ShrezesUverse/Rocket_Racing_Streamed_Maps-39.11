@@ -1,26 +1,13 @@
 # Rocket Racing Streamed Maps (Build 39.11)
 
-**A preservation dump of every on-demand *Del Mar* (Rocket Racing) track plugin from Fortnite build `39.11`, catalogued by codename → map name → plugin → download.**
-
+**Streamed on-demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`
 ![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)
 ![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)
 ![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)
 ![Delivery](https://img.shields.io/badge/downloads-GitHub%20Releases-8957e5)
 ![Status](https://img.shields.io/badge/Rocket%20Racing-servers%20off%20Oct%202026-d1242f)
 
-> Rocket Racing (Psyonix's arcade racer inside Fortnite, Dec 8 2023 → Oct 2026) delivered its tracks **on demand**: the base install shipped with *no* level content, and each track downloaded the first time you played it as a four-file bundle (`.pak` · `.ucas` · `.utoc` · `.sig`). Once the servers go dark those bundles stop being served — even for players with the game installed. **This repo is a snapshot of that content before it disappears.**
-
----
-
-## ⚖️ For Epic Games
-
-This is a **non-commercial, fan-made preservation archive**. It is **not affiliated with, endorsed by, or sponsored by Epic Games, Inc. or Psyonix.** "Fortnite," "Rocket Racing," "Rocket League," "Del Mar," and all related names, logos, and game assets are the property of Epic Games, Inc.
-
-**If you are Epic Games (or an authorized rights holder) and want this taken down, I will remove it — no dispute, no delay.** Just reach out:
-
-📧 **shrezeleiprech@gmail.com**
-
-You can also [open a takedown issue](../../issues/new?template=takedown.md) and it will be actioned immediately. See [`NOTICE.md`](NOTICE.md) for the full statement.
+> Rocket Racing (Psyonix's arcade racing game inside Fortnite, Dec 8 2023 → Oct 2026): the main Fortnite build install from Epic Games Launcher shipped with *no* DelMar level content, and each track gets downloaded the first time you played it as a four-file bundle (`.pak` · `.ucas` · `.utoc` · `.sig`) in your AppData folder on your system. Once the Rocket Racing servers sunset, those streamed bundles stop being produced. **This repo is a snapshot of that content before it disappears.**
 
 ---
 
@@ -186,3 +173,15 @@ This is a **fan-made preservation and research project**, **not affiliated with,
 ---
 
 *Compiled by **shrezee** · companion to the [Rocket Racing Global Archive](https://github.com/ShrezesUverse) · build `39.11-CL-49242330`.*
+
+---
+
+## For Epic Games
+
+This is a **non commercial, fan made archive**. It is **not affiliated with, endorsed by, or sponsored by Epic Games, Inc. or Psyonix.** "Fortnite," "Rocket Racing," "Rocket League," "Del Mar," and all related names, logos, and game assets are the property of Epic Games, Inc.
+
+**If you are Epic Games (or an authorized rights holder) and want this to take down, I will remove it.** Just reach out via:
+
+**shrezeleiprech@gmail.com**
+
+You can also [open a takedown issue](../../issues/new?template=takedown.md) and it will be actioned immediately. See [`NOTICE.md`](NOTICE.md) for the full statement
