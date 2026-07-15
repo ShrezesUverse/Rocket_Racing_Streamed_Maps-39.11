@@ -748,7 +748,7 @@
     "size_bytes": 120918240,
     "size_human": "115.3 MB",
     "category": "tutorial",
-    "note": "Dedicated single-player tutorial level; captured from build 41.10 (all other assets are 39.11)",
+    "note": "Dedicated single-player NUX tutorial; build 41.10 (all other assets 39.11). File-verified LevelData tags: DelMar.Mode.Competitive + DelMar.Mode.Challenge + DelMar.UI.StateContext.Gameplay.IsNux; map tag DelMar.Map.Tutorials.SeamlessTutorialRun. No dedicated DelMar.Mode.Tutorial. DisplayName 'Tutorial', LevelDescription 'NUX Tutorial'.",
     "asset": "DelMarSeamless_TutorialRun_41.10.zip",
     "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip"
   }

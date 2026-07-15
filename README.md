@@ -105,7 +105,7 @@
 
 ### Tutorial Map
 
-(tagged `DelMar.Mode.Something`). I forgot to save the v39.11 tutorial map. this one is the same but from v41.10.
+(file-verified LevelData tags: `DelMar.Mode.Competitive` + `DelMar.Mode.Challenge` + `DelMar.UI.StateContext.Gameplay.IsNux`; map tag `DelMar.Map.Tutorials.SeamlessTutorialRun`. So it carries **both** mode tags + the NUX flag — there is no dedicated `DelMar.Mode.Tutorial`. `DisplayName` = "Tutorial", `LevelDescription` = "NUX Tutorial".) I forgot to save the v39.11 tutorial map. this one is the same but from v41.10.
 (AES KEY=0x04B2DDB4CAD8F213753FF0B58343739AB4BC37A1BFFEF1CAF553C41E0E20F03E)
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download |
