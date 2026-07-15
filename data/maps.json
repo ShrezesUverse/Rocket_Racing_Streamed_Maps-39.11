@@ -1,0 +1,743 @@
+[
+  {
+    "codename": "Bronze01",
+    "map": "Puddle Jumper",
+    "plugin": "GFP_DelMarNUX_Bronze01",
+    "pakchunk": "pakchunk4612",
+    "size_bytes": 122871584,
+    "size_human": "117.2 MB",
+    "category": "comp",
+    "note": "Launch track",
+    "asset": "GFP_DelMarNUX_Bronze01.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze01.zip"
+  }
+,
+  {
+    "codename": "Bronze02",
+    "map": "Curvy Canyon",
+    "plugin": "GFP_DelMarNUX_Bronze02",
+    "pakchunk": "pakchunk4607",
+    "size_bytes": 125566224,
+    "size_human": "119.7 MB",
+    "category": "comp",
+    "note": "Launch track",
+    "asset": "GFP_DelMarNUX_Bronze02.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze02.zip"
+  }
+,
+  {
+    "codename": "Bronze03",
+    "map": "Lazy Lake",
+    "plugin": "GFP_DelMarNUX_Bronze03",
+    "pakchunk": "pakchunk4608",
+    "size_bytes": 126225472,
+    "size_human": "120.4 MB",
+    "category": "comp",
+    "note": "Launch track",
+    "asset": "GFP_DelMarNUX_Bronze03.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze03.zip"
+  }
+,
+  {
+    "codename": "Bronze03_adv",
+    "map": "Lazy Lake 2",
+    "plugin": "GFP_Bronze03_adv",
+    "pakchunk": "pakchunk4619",
+    "size_bytes": 124638192,
+    "size_human": "118.9 MB",
+    "category": "comp-adv",
+    "note": "Advanced (\"2\") variant of Lazy Lake",
+    "asset": "GFP_Bronze03_adv.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze03_adv.zip"
+  }
+,
+  {
+    "codename": "Bronze04",
+    "map": "Cliff Runner",
+    "plugin": "GFP_DelMarNUX_Bronze04",
+    "pakchunk": "pakchunk4611",
+    "size_bytes": 128891296,
+    "size_human": "122.9 MB",
+    "category": "comp",
+    "note": "file-verified (was unmapped)",
+    "asset": "GFP_DelMarNUX_Bronze04.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze04.zip"
+  }
+,
+  {
+    "codename": "Bronze06",
+    "map": "Dust Up",
+    "plugin": "GFP_DelMarNUX_Bronze06",
+    "pakchunk": "pakchunk4610",
+    "size_bytes": 126864864,
+    "size_human": "121.0 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarNUX_Bronze06.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze06.zip"
+  }
+,
+  {
+    "codename": "Bronze07",
+    "map": "Python",
+    "plugin": "GFP_DelMarNUX_Bronze07",
+    "pakchunk": "pakchunk4639",
+    "size_bytes": 127806112,
+    "size_human": "121.9 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarNUX_Bronze07.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze07.zip"
+  }
+,
+  {
+    "codename": "Bronze08",
+    "map": "Obsidian",
+    "plugin": "GFP_DelMarNUX_Bronze08",
+    "pakchunk": "pakchunk4646",
+    "size_bytes": 120880816,
+    "size_human": "115.3 MB",
+    "category": "comp",
+    "note": "file-verified (was unmapped)",
+    "asset": "GFP_DelMarNUX_Bronze08.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze08.zip"
+  }
+,
+  {
+    "codename": "Bronze08",
+    "map": "Obsidian",
+    "plugin": "GFP_DelMarNUX_Bronze08Optional",
+    "pakchunk": "pakchunk4646optional",
+    "size_bytes": 836912,
+    "size_human": "0.8 MB",
+    "category": "comp-opt",
+    "note": "Optional stream chunk for Obsidian",
+    "asset": "GFP_DelMarNUX_Bronze08Optional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze08Optional.zip"
+  }
+,
+  {
+    "codename": "Bronze09Flying",
+    "map": "Airborne",
+    "plugin": "GFP_DelMarNUX_Bronze09",
+    "pakchunk": "pakchunk4604",
+    "size_bytes": 130021840,
+    "size_human": "124.0 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarNUX_Bronze09.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze09.zip"
+  }
+,
+  {
+    "codename": "Bronze09Drifting",
+    "map": "Day Drifting",
+    "plugin": "GFP_Bronze09_Drifting_adv",
+    "pakchunk": "pakchunk4622",
+    "size_bytes": 128597056,
+    "size_human": "122.6 MB",
+    "category": "comp-adv",
+    "note": "Bronze09 drifting variant (Day Drifting / Day Drifting 2)",
+    "asset": "GFP_Bronze09_Drifting_adv.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze09_Drifting_adv.zip"
+  }
+,
+  {
+    "codename": "Bronze10",
+    "map": "Anarchy Arches",
+    "plugin": "GFP_DelMarNUX_Bronze10",
+    "pakchunk": "pakchunk4609",
+    "size_bytes": 129789184,
+    "size_human": "123.8 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarNUX_Bronze10.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarNUX_Bronze10.zip"
+  }
+,
+  {
+    "codename": "Apollo",
+    "map": "Tilted Turnpike",
+    "plugin": "GFP_DelMarApollo",
+    "pakchunk": "pakchunk4617",
+    "size_bytes": 124688880,
+    "size_human": "118.9 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarApollo.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarApollo.zip"
+  }
+,
+  {
+    "codename": "Aqueduct",
+    "map": "Azure Grotto",
+    "plugin": "GFP_DelMarAqueduct",
+    "pakchunk": "pakchunk4647",
+    "size_bytes": 124281056,
+    "size_human": "118.5 MB",
+    "category": "comp",
+    "note": "Inferno Island (S2)",
+    "asset": "GFP_DelMarAqueduct.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarAqueduct.zip"
+  }
+,
+  {
+    "codename": "Aqueduct",
+    "map": "Azure Grotto",
+    "plugin": "GFP_DelMarAqueductOptional",
+    "pakchunk": "pakchunk4647optional",
+    "size_bytes": 1005232,
+    "size_human": "1.0 MB",
+    "category": "comp-opt",
+    "note": "Optional stream chunk for Azure Grotto",
+    "asset": "GFP_DelMarAqueductOptional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarAqueductOptional.zip"
+  }
+,
+  {
+    "codename": "Cascade",
+    "map": "Seaside Farms",
+    "plugin": "GFP_DelMarCascade",
+    "pakchunk": "pakchunk4638",
+    "size_bytes": 119869536,
+    "size_human": "114.3 MB",
+    "category": "comp",
+    "note": "file-verified (was an API-only codename)",
+    "asset": "GFP_DelMarCascade.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarCascade.zip"
+  }
+,
+  {
+    "codename": "Cave",
+    "map": "Skull Rock Isle",
+    "plugin": "GFP_DelMarCave",
+    "pakchunk": "pakchunk4645",
+    "size_bytes": 64644736,
+    "size_human": "61.7 MB",
+    "category": "comp",
+    "note": "file-verified (was an API-only codename)",
+    "asset": "GFP_DelMarCave.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarCave.zip"
+  }
+,
+  {
+    "codename": "Cruise",
+    "map": "Seafoam Cove",
+    "plugin": "GFP_DelMarCruise",
+    "pakchunk": "pakchunk4649",
+    "size_bytes": 121312256,
+    "size_human": "115.7 MB",
+    "category": "comp",
+    "note": "file-verified new codename",
+    "asset": "GFP_DelMarCruise.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarCruise.zip"
+  }
+,
+  {
+    "codename": "Draino",
+    "map": "Conduit",
+    "plugin": "GFP_DelMarDraino",
+    "pakchunk": "pakchunk4635",
+    "size_bytes": 119604768,
+    "size_human": "114.1 MB",
+    "category": "comp",
+    "note": "Neon Rush",
+    "asset": "GFP_DelMarDraino.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarDraino.zip"
+  }
+,
+  {
+    "codename": "Driftmania",
+    "map": "Anaconda",
+    "plugin": "GFP_DelMarDriftmania",
+    "pakchunk": "pakchunk4602",
+    "size_bytes": 126855136,
+    "size_human": "121.0 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarDriftmania.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarDriftmania.zip"
+  }
+,
+  {
+    "codename": "Hydra",
+    "map": "Tri-City",
+    "plugin": "GFP_DelMarHydra",
+    "pakchunk": "pakchunk4634",
+    "size_bytes": 99594448,
+    "size_human": "95.0 MB",
+    "category": "comp",
+    "note": "file-verified (was unmapped)",
+    "asset": "GFP_DelMarHydra.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarHydra.zip"
+  }
+,
+  {
+    "codename": "JumperStrafe",
+    "map": "Bone Cavern",
+    "plugin": "GFP_DelMarJumperStrafe",
+    "pakchunk": "pakchunk4606",
+    "size_bytes": 40272736,
+    "size_human": "38.4 MB",
+    "category": "comp",
+    "note": "file-verified new codename",
+    "asset": "GFP_DelMarJumperStrafe.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarJumperStrafe.zip"
+  }
+,
+  {
+    "codename": "JumperStrafe",
+    "map": "Bone Cavern",
+    "plugin": "GFP_DelMarJumperStrafeOptional",
+    "pakchunk": "pakchunk4606optional",
+    "size_bytes": 395392,
+    "size_human": "0.4 MB",
+    "category": "comp-opt",
+    "note": "Optional stream chunk for Bone Cavern",
+    "asset": "GFP_DelMarJumperStrafeOptional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarJumperStrafeOptional.zip"
+  }
+,
+  {
+    "codename": "KickFlip",
+    "map": "Jackrabbit",
+    "plugin": "GFP_DelMarKickFlip",
+    "pakchunk": "pakchunk4633",
+    "size_bytes": 127605024,
+    "size_human": "121.7 MB",
+    "category": "comp",
+    "note": "file-verified (was unmapped)",
+    "asset": "GFP_DelMarKickFlip.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarKickFlip.zip"
+  }
+,
+  {
+    "codename": "KickFlip",
+    "map": "Jackrabbit",
+    "plugin": "GFP_DelMarKickFlipOptional",
+    "pakchunk": "pakchunk4633optional",
+    "size_bytes": 13093472,
+    "size_human": "12.5 MB",
+    "category": "comp-opt",
+    "note": "Optional stream chunk for Jackrabbit",
+    "asset": "GFP_DelMarKickFlipOptional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarKickFlipOptional.zip"
+  }
+,
+  {
+    "codename": "Olympus",
+    "map": "Olympus",
+    "plugin": "GFP_DelMarOlympus",
+    "pakchunk": "pakchunk4618",
+    "size_bytes": 119391904,
+    "size_human": "113.9 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarOlympus.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarOlympus.zip"
+  }
+,
+  {
+    "codename": "Ouroboros",
+    "map": "Festive Falls",
+    "plugin": "GFP_DelMarOuroboros",
+    "pakchunk": "pakchunk4601",
+    "size_bytes": 164832448,
+    "size_human": "157.2 MB",
+    "category": "comp",
+    "note": "Big Bang event map; launch track",
+    "asset": "GFP_DelMarOuroboros.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarOuroboros.zip"
+  }
+,
+  {
+    "codename": "Ouroboros_adv",
+    "map": "Festive Falls 2",
+    "plugin": "GFP_Ouroboros_adv",
+    "pakchunk": "pakchunk4621",
+    "size_bytes": 165186688,
+    "size_human": "157.5 MB",
+    "category": "comp-adv",
+    "note": "Advanced (\"2\") variant of Festive Falls",
+    "asset": "GFP_Ouroboros_adv.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Ouroboros_adv.zip"
+  }
+,
+  {
+    "codename": "Phoenix",
+    "map": "Delirium",
+    "plugin": "GFP_DelMarPhoenix",
+    "pakchunk": "pakchunk4636",
+    "size_bytes": 136446336,
+    "size_human": "130.1 MB",
+    "category": "comp",
+    "note": "Neon Rush",
+    "asset": "GFP_DelMarPhoenix.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarPhoenix.zip"
+  }
+,
+  {
+    "codename": "Phoenix",
+    "map": "Delirium",
+    "plugin": "GFP_DelMarPhoenixOptional",
+    "pakchunk": "pakchunk4636optional",
+    "size_bytes": 259088,
+    "size_human": "0.2 MB",
+    "category": "comp-opt",
+    "note": "Optional stream chunk for Delirium",
+    "asset": "GFP_DelMarPhoenixOptional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarPhoenixOptional.zip"
+  }
+,
+  {
+    "codename": "Poseidon",
+    "map": "Slap Happy",
+    "plugin": "GFP_DelMarPoseidon",
+    "pakchunk": "pakchunk4637",
+    "size_bytes": 131488496,
+    "size_human": "125.4 MB",
+    "category": "comp",
+    "note": "Neon Rush",
+    "asset": "GFP_DelMarPoseidon.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarPoseidon.zip"
+  }
+,
+  {
+    "codename": "Rally",
+    "map": "K2 Raceway",
+    "plugin": "GFP_DelMarRally",
+    "pakchunk": "pakchunk4603",
+    "size_bytes": 96125664,
+    "size_human": "91.7 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarRally.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarRally.zip"
+  }
+,
+  {
+    "codename": "Rally_adv",
+    "map": "K2 Raceway Deux",
+    "plugin": "GFP_Rally_adv",
+    "pakchunk": "pakchunk4620",
+    "size_bytes": 100279024,
+    "size_human": "95.6 MB",
+    "category": "comp-adv",
+    "note": "Advanced (\"2\") variant of K2 Raceway",
+    "asset": "GFP_Rally_adv.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Rally_adv.zip"
+  }
+,
+  {
+    "codename": "Riviera",
+    "map": "Riviera",
+    "plugin": "GFP_DelMarRiviera",
+    "pakchunk": "pakchunk4522",
+    "size_bytes": 108418896,
+    "size_human": "103.4 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarRiviera.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarRiviera.zip"
+  }
+,
+  {
+    "codename": "Sidewinder",
+    "map": "Sidewinder",
+    "plugin": "GFP_DelMarSidewinder",
+    "pakchunk": "pakchunk4616",
+    "size_bytes": 123497520,
+    "size_human": "117.8 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarSidewinder.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarSidewinder.zip"
+  }
+,
+  {
+    "codename": "Snap",
+    "map": "Pleasant Pitstop",
+    "plugin": "GFP_DelMarSnap",
+    "pakchunk": "pakchunk4615",
+    "size_bytes": 105609952,
+    "size_human": "100.7 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarSnap.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarSnap.zip"
+  }
+,
+  {
+    "codename": "SweetJumps",
+    "map": "Windy Way",
+    "plugin": "GFP_DelMarSweetJumps",
+    "pakchunk": "pakchunk4614",
+    "size_bytes": 121180208,
+    "size_human": "115.6 MB",
+    "category": "comp",
+    "note": "file-verified (was unmapped)",
+    "asset": "GFP_DelMarSweetJumps.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarSweetJumps.zip"
+  }
+,
+  {
+    "codename": "Turbine",
+    "map": "Outpost",
+    "plugin": "GFP_DelMarTurbine",
+    "pakchunk": "pakchunk4613",
+    "size_bytes": 133008864,
+    "size_human": "126.8 MB",
+    "category": "comp",
+    "note": "",
+    "asset": "GFP_DelMarTurbine.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DelMarTurbine.zip"
+  }
+,
+  {
+    "codename": "Twister",
+    "map": "Twin Flame Island",
+    "plugin": "GFP_Twister",
+    "pakchunk": "pakchunk4648",
+    "size_bytes": 127258928,
+    "size_human": "121.4 MB",
+    "category": "comp",
+    "note": "Inferno Island; bare Twister plugin (dev naming oversight), still competitive",
+    "asset": "GFP_Twister.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Twister.zip"
+  }
+,
+  {
+    "codename": "Apollo",
+    "map": "Tilted Turns",
+    "plugin": "GFP_Apollo",
+    "pakchunk": "pakchunk4630",
+    "size_bytes": 117088448,
+    "size_human": "111.7 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Ch_Apollo / \"Apollo2\")",
+    "asset": "GFP_Apollo.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Apollo.zip"
+  }
+,
+  {
+    "codename": "Snap",
+    "map": "Pleasant Detour",
+    "plugin": "GFP_Snap",
+    "pakchunk": "pakchunk4627",
+    "size_bytes": 103930592,
+    "size_human": "99.1 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (\"Snap2\")",
+    "asset": "GFP_Snap.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Snap.zip"
+  }
+,
+  {
+    "codename": "Bronze01",
+    "map": "Puddle Skipper",
+    "plugin": "GFP_Bronze01",
+    "pakchunk": "pakchunk4626",
+    "size_bytes": 119773984,
+    "size_human": "114.2 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Bronze01_SpeedRun)",
+    "asset": "GFP_Bronze01.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze01.zip"
+  }
+,
+  {
+    "codename": "Bronze06",
+    "map": "Dusted",
+    "plugin": "GFP_Bronze06",
+    "pakchunk": "pakchunk4625",
+    "size_bytes": 120489120,
+    "size_human": "114.9 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Bronze06_SpeedRun)",
+    "asset": "GFP_Bronze06.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze06.zip"
+  }
+,
+  {
+    "codename": "Bronze09Flying",
+    "map": "Aero",
+    "plugin": "GFP_Bronze09_Flying",
+    "pakchunk": "pakchunk4623",
+    "size_bytes": 128984400,
+    "size_human": "123.0 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Bronze09Flying_SpeedRun)",
+    "asset": "GFP_Bronze09_Flying.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze09_Flying.zip"
+  }
+,
+  {
+    "codename": "Bronze10",
+    "map": "Inverse Arches",
+    "plugin": "GFP_Bronze10",
+    "pakchunk": "pakchunk4624",
+    "size_bytes": 122383088,
+    "size_human": "116.7 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Bronze10_SpeedRun)",
+    "asset": "GFP_Bronze10.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Bronze10.zip"
+  }
+,
+  {
+    "codename": "Driftmania",
+    "map": "Anaconda Bite",
+    "plugin": "GFP_Driftmania",
+    "pakchunk": "pakchunk4629",
+    "size_bytes": 125913264,
+    "size_human": "120.1 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Driftmania_SpeedRun)",
+    "asset": "GFP_Driftmania.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Driftmania.zip"
+  }
+,
+  {
+    "codename": "Olympus",
+    "map": "Olympico",
+    "plugin": "GFP_Olympus",
+    "pakchunk": "pakchunk4631",
+    "size_bytes": 117316992,
+    "size_human": "111.9 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Olympus_SpeedRun)",
+    "asset": "GFP_Olympus.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Olympus.zip"
+  }
+,
+  {
+    "codename": "Riviera",
+    "map": "Riviera Rush",
+    "plugin": "GFP_Riviera",
+    "pakchunk": "pakchunk4632",
+    "size_bytes": 105883440,
+    "size_human": "101.0 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Riviera_SpeedRun)",
+    "asset": "GFP_Riviera.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Riviera.zip"
+  }
+,
+  {
+    "codename": "Sidewinder",
+    "map": "Sidewinder Sprint",
+    "plugin": "GFP_Sidewinder",
+    "pakchunk": "pakchunk4628",
+    "size_bytes": 120646688,
+    "size_human": "115.1 MB",
+    "category": "sr",
+    "note": "Speed-Run-only (Sidewinder_SpeedRun)",
+    "asset": "GFP_Sidewinder.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Sidewinder.zip"
+  }
+,
+  {
+    "codename": "GoldRush",
+    "map": "Mine Mayhem",
+    "plugin": "GFP_GoldRush",
+    "pakchunk": "pakchunk4644",
+    "size_bytes": 11323472,
+    "size_human": "10.8 MB",
+    "category": "ext",
+    "note": "Epic/Psyonix (DelMar_Racing_ProjectA); island code playlist_delmar_goldrush",
+    "asset": "GFP_GoldRush.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_GoldRush.zip"
+  }
+,
+  {
+    "codename": "CoralCove",
+    "map": "Buddy Beach",
+    "plugin": "GFP_CoralCove",
+    "pakchunk": "pakchunk4643",
+    "size_bytes": 90787232,
+    "size_human": "86.6 MB",
+    "category": "ext",
+    "note": "3D Lab (PA_3DLabTrackB), mid-2024",
+    "asset": "GFP_CoralCove.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_CoralCove.zip"
+  }
+,
+  {
+    "codename": "PirateAdventure",
+    "map": "Shipwrecked",
+    "plugin": "GFP_PirateAdventure",
+    "pakchunk": "pakchunk4642",
+    "size_bytes": 54635680,
+    "size_human": "52.1 MB",
+    "category": "ext",
+    "note": "3D Lab (PA_3DLabTrackA)",
+    "asset": "GFP_PirateAdventure.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_PirateAdventure.zip"
+  }
+,
+  {
+    "codename": "DM_404_S2_A",
+    "map": "Lavish Lagoon",
+    "plugin": "GFP_DM_404_S2_A",
+    "pakchunk": "pakchunk4650",
+    "size_bytes": 121517344,
+    "size_human": "115.9 MB",
+    "category": "ext",
+    "note": "404 Creative, Season 2 / Inferno Island (RoundTwoEasy)",
+    "asset": "GFP_DM_404_S2_A.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DM_404_S2_A.zip"
+  }
+,
+  {
+    "codename": "DM_404_S2_B",
+    "map": "Basalt Burrow",
+    "plugin": "GFP_DM_404_S2_B",
+    "pakchunk": "pakchunk4651",
+    "size_bytes": 119480832,
+    "size_human": "113.9 MB",
+    "category": "ext",
+    "note": "404 Creative, Season 2 / Inferno Island (difficultTrack)",
+    "asset": "GFP_DM_404_S2_B.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DM_404_S2_B.zip"
+  }
+,
+  {
+    "codename": "DM_404_S2_B",
+    "map": "Basalt Burrow",
+    "plugin": "GFP_DM_404_S2_BOptional",
+    "pakchunk": "pakchunk4651optional",
+    "size_bytes": 828768,
+    "size_human": "0.8 MB",
+    "category": "ext-opt",
+    "note": "Optional stream chunk for Basalt Burrow",
+    "asset": "GFP_DM_404_S2_BOptional.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_DM_404_S2_BOptional.zip"
+  }
+,
+  {
+    "codename": "Alpine",
+    "map": "Alpine",
+    "plugin": "GFP_Alpine",
+    "pakchunk": "pakchunk4640",
+    "size_bytes": 63716800,
+    "size_human": "60.8 MB",
+    "category": "ext",
+    "note": "Display name = codename",
+    "asset": "GFP_Alpine.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Alpine.zip"
+  }
+,
+  {
+    "codename": "Borealis",
+    "map": "Borealis",
+    "plugin": "GFP_Borealis",
+    "pakchunk": "pakchunk4641",
+    "size_bytes": 105001152,
+    "size_human": "100.1 MB",
+    "category": "ext",
+    "note": "Epic/Psyonix (DelMar_Racing_ProjectB); display name = codename",
+    "asset": "GFP_Borealis.zip",
+    "download": "https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps/releases/download/39.11/GFP_Borealis.zip"
+  }
+
+]

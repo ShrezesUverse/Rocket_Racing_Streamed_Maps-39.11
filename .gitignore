@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Rocket Racing — Streamed Maps · what git does NOT track
+#  The pak binaries are distributed via GitHub Releases, never committed:
+#   • a single .ucas is 60–165 MB — past GitHub's 100 MB hard per-file limit
+#   • ~5.5 GB total across 57 plugins would make the repo miserable to clone
+#  The repo keeps only docs, catalog data, scripts, and build provenance.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Full-game container set (~115 GB) — not part of this repo at all
+/Paks/
+
+# Per-map pak bundles under GFP/ — shipped as Release assets, not git
+GFP/**/*.pak
+GFP/**/*.sig
+GFP/**/*.ucas
+GFP/**/*.utoc
+GFP/**/*.o.ucas
+GFP/**/*.o.utoc
+GFP/**/*.uondemandtoc
+GFP/**/ManifestArchive.journal
+
+# Release zips built locally by scripts/package_releases.ps1
+/dist/
+
+# Generated intermediate (the catalog is embedded in README.md)
+CATALOG_BODY.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
