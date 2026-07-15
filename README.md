@@ -1,4 +1,4 @@
-![RR](ast/IMG_1743.png)
+![Rocket Racing streamed maps catalogue](ast/IMG_1743.jpg)
 
 # Rocket Racing Streamed Maps (Build 39.11)
 
