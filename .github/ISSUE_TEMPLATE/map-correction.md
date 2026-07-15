@@ -7,7 +7,7 @@ assignees: []
 ---
 
 **Which plugin / row?**
-<!-- e.g. GFP_DelMarApollo (pakchunk4617) -->
+<!-- e.g. DelMarApollo (pakchunk4617) -->
 
 **What's wrong, and what should it be?**
 <!-- current value → corrected value -->

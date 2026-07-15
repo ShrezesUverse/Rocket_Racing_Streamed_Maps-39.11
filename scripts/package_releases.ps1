@@ -44,7 +44,10 @@ foreach ($p in $plugins) {
         Write-Warning "  skip $($p.Name) — no .pak inside (binaries not present locally?)"
         $skipped++; continue
     }
-    $zip = Join-Path $OutDir ("{0}.zip" -f $p.Name)
+    # Asset name = plugin name without the GFP_ folder prefix (GFP_ just means GameFeaturePlugin),
+    # so it matches the download links in README.md (e.g. GFP_DelMarApollo\ -> DelMarApollo.zip).
+    $assetName = $p.Name -replace '^GFP_', ''
+    $zip = Join-Path $OutDir ("{0}.zip" -f $assetName)
     if ((Test-Path $zip) -and -not $Force) {
         Write-Host "  exists $($p.Name).zip (use -Force to rebuild)" -ForegroundColor DarkGray
         $skipped++; continue

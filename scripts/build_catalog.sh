@@ -108,7 +108,8 @@ while IFS='|' read -r plugin codename map category note; do
   total_bytes=$((total_bytes + bytes))
   count=$((count+1))
   size=$(human_size "$bytes")
-  asset="${plugin}.zip"
+  pluginname="${plugin#GFP_}"   # GFP_ is just the GameFeaturePlugin folder prefix, not the plugin name
+  asset="${pluginname}.zip"
   url="$BASEURL/$asset"
 
   # JSON
@@ -118,7 +119,7 @@ while IFS='|' read -r plugin codename map category note; do
   {
     "codename": "$(json_esc "$codename")",
     "map": "$(json_esc "$map")",
-    "plugin": "$(json_esc "$plugin")",
+    "plugin": "$(json_esc "$pluginname")",
     "pakchunk": "$(json_esc "$chunk")",
     "size_bytes": $bytes,
     "size_human": "$(json_esc "$size")",
@@ -132,7 +133,7 @@ J
   # markdown row: | Map | Codename | Plugin | pakchunk | size | download |
   notecell="$note"
   [ -z "$notecell" ] && notecell="—"
-  row="| **$map** | \`$codename\` | \`$plugin\` | \`$chunk\` | $size | [⬇ download]($url) | $notecell |"
+  row="| **$map** | \`$codename\` | \`$pluginname\` | \`$chunk\` | $size | [⬇ download]($url) | $notecell |"
   case "$category" in
     comp*) echo "$row" >> "$tmp_comp" ;;
     sr*)   echo "$row" >> "$tmp_sr" ;;
@@ -143,7 +144,7 @@ done <<< "$META"
 echo "" >> "$JSON"
 echo "]" >> "$JSON"
 
-hdr='| Map | Codename | Plugin (GFP) | Pakchunk ID | Size | Download | Notes |
+hdr='| Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|'
 
 {
