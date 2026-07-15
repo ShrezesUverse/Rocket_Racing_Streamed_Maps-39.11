@@ -122,7 +122,7 @@ Each download is one plugin's four file IoStore bundle (`.pak` · `.ucas` · `.u
 
 Windows PowerShell
 ```
-$ProgressPreference = 'SilentlyContinue'   # without this, PowerShell's progress bar throttles downloads ~10x
+$ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $repo = 'ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11'; $tag = '39.11'
 $dest = Join-Path $env:USERPROFILE 'Downloads\RocketRacingMaps'
@@ -137,7 +137,7 @@ repo="ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11"; tag="39.11"; dest="$HOME
 mkdir -p "$dest"
 curl -s "https://api.github.com/repos/$repo/releases/tags/$tag" \
   | grep -o '"browser_download_url": *"[^"]*"' | cut -d'"' -f4 \
-  | while read -r url; do echo "$ {url##*/}"; curl -L --retry 3 -o "$dest/${url##*/}" "$url"; done
+  | while read -r url; do echo "${url##*/}"; curl -L --retry 3 -o "$dest/${url##*/}" "$url"; done
 ```
 Linux wget one line
 ```
