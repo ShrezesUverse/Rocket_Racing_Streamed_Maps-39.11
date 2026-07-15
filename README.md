@@ -1,6 +1,6 @@
 # Rocket Racing Streamed Maps (Build 39.11)
 
-**Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`
+**Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`**
 ![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)
 ![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)
 ![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)
@@ -27,7 +27,7 @@
 
 ### Competitive tracks - Racing - Ranked - Speed Run
 
-(tagged `DelMar.Mode.Competitive`). `_adv` = the advanced "v2" variant; `…Optional` = an on demand stream chunk that pairs with the base track above it. If an plugin has those, id recomend to download the optional ones as well, as some metadata can be stored
+(tagged `DelMar.Mode.Competitive`). `_adv` = the advanced "v2" variant; `…Optional` = an on demand stream chunk that pairs with the base track above it. If an plugin has those, id recomend to download the optional ones as well, as some metadata can be stored. (AES KEY=0x91FEC0EA895875DBFD0E2BA9487AF5F0BB2383769033FA7A25E3729D1F923260)
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
@@ -73,7 +73,7 @@
 
 ### Speed-Run exclusive tracks
 
-(no `DelMar` prefix), tagged `DelMar.Mode.Challenge`, reachable only through the Speed Run playlist. These are the internal side of the community "…2" names
+(no `DelMar` prefix), tagged `DelMar.Mode.Challenge`, reachable only through the Speed Run playlist. These are the internal side of the community "…2" names. (AES KEY=0x91FEC0EA895875DBFD0E2BA9487AF5F0BB2383769033FA7A25E3729D1F923260)
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
@@ -90,7 +90,7 @@
 
 ### built by other studios
 
-`DelMar/Levels/` (Epic/Psyonix, 3D Lab, 404 Creative). These keep `LevelData` as raw `.uasset` names
+`DelMar/Levels/` (Epic/Psyonix, 3D Lab, 404 Creative). These keep `LevelData` as raw `.uasset` names. (AES KEY=0x91FEC0EA895875DBFD0E2BA9487AF5F0BB2383769033FA7A25E3729D1F923260)
 
 | Map | Codename | Plugin | Pakchunk ID | Size | Download | Notes |
 |---|---|---|---|---|---|---|
