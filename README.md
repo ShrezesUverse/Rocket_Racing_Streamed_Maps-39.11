@@ -5,11 +5,11 @@
 ***NOTE: If this gets enough attention, I will make downloadable .uefnproject for all of those that completely validate**
 
 **Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`**
-![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)
-![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)
-![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)
-![Delivery](https://img.shields.io/badge/downloads-GitHub%20Releases-8957e5)
-![Status](https://img.shields.io/badge/Rocket%20Racing-servers%20off%20Oct%202026-d1242f)
+[![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)](data/39.11-md)
+[![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
+[![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
+[![Delivery](https://img.shields.io/badge/downloads-GitHub%20Releases-8957e5)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
+[![Status](https://img.shields.io/badge/Rocket%20Racing-servers%20off%20Oct%202026-d1242f)](https://rocketracingarchive.com)
 
 > Rocket Racing (Psyonix's arcade racing game inside Fortnite, Dec 8 2023 → Oct 2026): the main Fortnite build install from Epic Games Launcher shipped with *no* DelMar level content, and each track gets downloaded the first time you played it as a four file bundle (`.pak` · `.ucas` · `.utoc` · `.sig`) in your AppData folder on your system. Once the Rocket Racing servers sunset, those streamed bundles obviously stop being produced since you cant queue into any RR playlist. **This repo is a snapshot of that content before it disappears.**
 
