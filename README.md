@@ -5,7 +5,7 @@
 ***NOTE: If this gets enough attention, I will make downloadable .uefnproject for all of those that completely validate**
 
 **Streamed on demand *Del Mar* (Rocket Racing) track level plugins from Fortnite build `39.11`**
-[![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)](data/39.11.md)
+[![Fortnite build](https://img.shields.io/badge/Fortnite-39.11%20·%20CL--49242330-1f6feb)](data/39.11.json)
 [![Map plugins](https://img.shields.io/badge/map%20plugins-57-2ea043)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
 [![Total size](https://img.shields.io/badge/total-5.5%20GB-e3651d)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
 [![Delivery](https://img.shields.io/badge/downloads-GitHub%20Releases-8957e5)](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/tag/39.11)
