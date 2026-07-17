@@ -170,7 +170,7 @@ This is a **fan made project**, **not affiliated with, endorsed by, or sponsored
 
 ---
 
-*Made with Love by **shrezee** - founder of the [Rocket Racing Global Archive](https://github.com/ShrezesUverse) Coming soon
+*Made with Love by **shrezee** - founder of the [Rocket Racing Global Archive](https://rocketracingarchive.com)
 
 ---
 
