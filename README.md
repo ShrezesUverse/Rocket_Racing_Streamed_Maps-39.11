@@ -116,11 +116,11 @@
 |---|---|---|---|---|---|
 | **Tutorial** | `DelMar_Tutorials_SeamlessTutorialRun` | `DelMarSeamless_TutorialRun` | `pakchunk4605` | 115.3 MB | [⬇](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/39.11/DelMarSeamless_TutorialRun_41.10.zip) |
 
-> **Not in this build yet:** Iron. (aka. Trash Mountain)
+> **Not in this repo yet:** Iron. (aka. Thrash Mountain)
 
 ---
 Some maps have landscape actors, sooo here: 
-![HeightMaps](HeightMaps.zip)
+![HeightMaps](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/HeightMaps/HeightMaps.zip)
 
 ## Using the files
 
