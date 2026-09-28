@@ -119,7 +119,8 @@
 > **Not in this build yet:** Iron. (aka. Trash Mountain)
 
 ---
-
+Some maps have landscape actors, sooo here: 
+![HeightMaps](HeightMaps.zip)
 
 ## Using the files
 
