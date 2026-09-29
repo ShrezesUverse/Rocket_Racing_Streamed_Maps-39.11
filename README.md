@@ -120,8 +120,8 @@
 
 ---
 Some maps have landscape actors, sooo here: 
-![HeightMaps](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/HeightMaps/HeightMaps.zip)
-
+[HeightMaps](https://github.com/ShrezesUverse/Rocket_Racing_Streamed_Maps-39.11/releases/download/HeightMaps/HeightMaps.zip)
+and their [relative world locations](landscape_summary.csv)
 ## Using the files
 
 Each download is one plugin's four file IoStore bundle (`.pak` · `.ucas` · `.utoc` · `.sig`).
